@@ -1,0 +1,1 @@
+function [A] = Cntrst(img)   A = 50 + 150 / 100 * img;end 

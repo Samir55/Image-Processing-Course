@@ -1,0 +1,1 @@
+function [A] = drhist(img_path)   # Read image  img_org = imread(img_path);  # convert to greyscale It's already greyscale.  #img = rgb2gray(img_org);    figure();  subplot(1, 2, 1);  imshow(img_org);  subplot(1, 2, 2);  imhist (img_org);  A = img_org;end 
