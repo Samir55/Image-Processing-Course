@@ -1,1 +1,1 @@
-# Load image packagepkg load imageclose all  % figures windowsclc % command windowclear % variables in memoryA = zeros(21, 21);A = double(A);A(11, 10) = 1; A(11, 12) = 1;A_fft = ifft2(A);A_shift = ifftshift(A_fft);A_abs = abs(A_shift);A_log = log(A_abs +1)
+# Load image packagepkg load imageclose all  % figures windowsclc % command windowclear % variables in memoryA = zeros(21, 21);A = double(A);A(11, 10) = 1; A(11, 12) = 1;A_fft = ifft2(A);A_shift = ifftshift(A_fft);A_abs = abs(A_shift);A_log = log(A_abs +1);
