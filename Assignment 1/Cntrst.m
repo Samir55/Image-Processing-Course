@@ -1,1 +1,1 @@
-function [A] = Cntrst(img)   A = 50 + 150 / 100 * img;end 
+function [A] = Cntrst(img)   A ( A <= 50) = 50 + 150 / 100 * img;end 
