@@ -1,0 +1,1 @@
+function [A] = GmmCor(img, const, gamma_const)   A = const .* (img .^ gamma_const);end 

@@ -1,0 +1,1 @@
+# Load image packagepkg load imageclose all  % figures windowsclc % command windowclear % variables in memoryimg = eqhist("/Users/ASamir/third_year/pout.tif", 255);img = eqhist("/Users/ASamir/third_year/tire.tif", 255);

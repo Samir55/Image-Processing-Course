@@ -1,0 +1,1 @@
+function [A] = Negative(img, threshold)   A = img;  A(img<threshold) = 11;  A(img>threshold) = 255;end 
