@@ -29,14 +29,17 @@ img(img >= 100 & img < 150) = 150;
 img(img >= 150 & img < 200) = 200;
 img(img >= 200 & img <= 255) = 255;
 
+img_without_blue_grey = rgb2gray(img_without_blue);
+
 # Show different images
 figure();
-subplot(2,1, 1);
+subplot(3,1, 1);
 imshow(img_org, []);
 #subplot(4,1, 2)
 #imshow(img_th, []);
 #subplot(2, 1, 3);
 #imshow(img, []);
-subplot(2, 1, 2);
+subplot(3, 1, 2);
 imshow(img_without_blue, []);
-
+subplot(3, 1, 3);
+imshow(img_without_blue_grey, []);
